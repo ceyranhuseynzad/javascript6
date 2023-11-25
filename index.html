@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid;
+            padding: 15px;
+        }
+
+        table {
+
+            border-collapse: collapse;
+        }
+
+        button {
+            margin-top: 30px;
+            font-size: 20px;
+            padding: 5px;
+            background-color: rgb(32, 202, 240);
+            border: none;
+            color: aliceblue;
+        }
+
+        table {
+            margin-top: 30px;
+        }
+
+        input {
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <label for="">Name</label>
+        <input type="text" class="name">
+        <label for="">Lastname</label>
+        <input type="text" class="lastname">
+        <label for="">Age</label>
+        <input type="text" class="age">
+        <button class="add">Add</button>
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </table>
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
